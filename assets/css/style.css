@@ -1,9 +1,8 @@
 #gif-form {
-	float: right;
+    margin-left: 10px;
 }
 .gif {
-	float: left;
-    background-color: #00FFFF;
+    background-color: #DC143C;
     border: none;
     color: white;
     padding: 10px 15px;
@@ -11,20 +10,36 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin-left: 10px;
+    margin-top: 10px;
     cursor: pointer;
 }
+/*.gif:first-child {
+    margin-left: 10px;
+}*/
 /*.gif:hover {
 	border: 1px solid black;
 }*/
-img {
-	float: left;
-	margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 300px;
-    height: 200px;
+#text {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
-p {
-	float: left;
+#gif-input {
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+#add-gif {
+    width: 90px;
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+#container {
+    margin-top: 20px;
+}  
+.item {
+float: left;
+margin-left: 10px;
 }
